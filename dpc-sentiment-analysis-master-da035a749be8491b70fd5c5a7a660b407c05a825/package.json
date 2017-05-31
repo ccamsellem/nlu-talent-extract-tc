@@ -1,0 +1,25 @@
+{
+  "name": "dpc-sentiment-analysis",
+  "version": "0.0.1",
+  "description": "Provide Natural Language analysis for comments in surveys",
+  "engines": {
+    "node": "4.x"
+  },
+  "scripts": {
+    "start": "node app.js"
+  },
+  "author": "Darren Cacy, IBM Corp",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "cfenv": "^1.0.4",
+    "csv-parse": "^1.2.0",
+    "dotenv": "^4.0.0",
+    "express": "^4.15.2",
+    "fast-csv": "^2.4.0",
+    "formidable": "^1.1.1",
+    "fs": "0.0.1-security",
+    "promise": "^7.1.1",
+    "stream-transform": "^0.1.2",
+    "watson-developer-cloud": "^2.31.1"
+  }
+}

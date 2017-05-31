@@ -1,0 +1,17 @@
+---
+declared-services:
+  my-nlu-service:
+    label: natural-language-understanding
+    plan: free
+
+applications:
+- name: dpc-sentiment-analysis
+  path: .
+  buildpack: sdk-for-nodejs
+  command: npm start
+  memory: 512M
+  services:
+  - my-nlu-service
+  env:
+    NATURAL_LANGUAGE_UNDERSTANDING_USERNAME: 19e6d7f8-0cfa-435b-8b16-5e0c4dadb67c
+    NATURAL_LANGUAGE_UNDERSTANDING_PASSWORD: elZzKgPhk33f

@@ -1,0 +1,52 @@
+
+.banner {
+	background: rgba(159,52,247,1);
+	background: -moz-linear-gradient(left, rgba(159,52,247,1) 0%, rgba(184,146,244,1) 44%, rgba(184,146,244,1) 100%);
+	background: -webkit-gradient(left top, right top, color-stop(0%, rgba(159,52,247,1)), color-stop(44%, rgba(184,146,244,1)), color-stop(100%, rgba(184,146,244,1)));
+	background: -webkit-linear-gradient(left, rgba(159,52,247,1) 0%, rgba(184,146,244,1) 44%, rgba(184,146,244,1) 100%);
+	background: -o-linear-gradient(left, rgba(159,52,247,1) 0%, rgba(184,146,244,1) 44%, rgba(184,146,244,1) 100%);
+	background: -ms-linear-gradient(left, rgba(159,52,247,1) 0%, rgba(184,146,244,1) 44%, rgba(184,146,244,1) 100%);
+	background: linear-gradient(to right, rgba(159,52,247,1) 0%, rgba(184,146,244,1) 44%, rgba(184,146,244,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#9f34f7', endColorstr='#b892f4', GradientType=1 );
+	padding:20px 0px 0px 0px; /* dpc 60px 0px;*/
+}
+
+
+
+  .container-watsonqa {
+    /*width: 95%;*/
+    color: #B892F4;
+  }
+
+  
+  .h2-watsonqa {
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 18px;
+    font-weight: 200;
+   // color: #00b2ef;
+  }
+  
+  
+  
+  .button-watsonqa {
+    color: #B892F4;
+    cursor: pointer;
+    //padding: 6px 12px 6px 0px;
+    display: inline-block;
+    //transition: all 0.15s ease 0s;
+    vertical-align: middle;
+    font-size: 13px;
+    //border-radius: 0px;
+    background-color: transparent;
+    border: 1px solid #B892F4;
+    font-weight: 400;
+    text-align: center;
+    padding: 5px 15px 5px 15px;
+    margin: 10px 0 10px 0;
+  }
+
+  .button-watsonqa:hover {
+    text-decoration: underline;
+    //color: #999999;
+    font-weight:600;
+  }
